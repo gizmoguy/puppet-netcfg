@@ -1,0 +1,3 @@
+# Puppet Network Configuration module.
+
+A simple hiera wrapper for the `network_config` resource provided by the puppet-network plugin (https://github.com/adrienthebo/puppet-network).

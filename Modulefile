@@ -1,0 +1,8 @@
+name         'gizmoguy-netcfg'
+version      '0.0.0'
+source       'https://github.com/gizmoguy/puppet-netcfg'
+author       'gizmoguy'
+license      'Apache License, Version 2.0'
+summary      'TODO'
+description  'TODO'
+project_page 'https://github.com/gizmoguy/puppet-netcfg'

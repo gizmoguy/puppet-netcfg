@@ -1,0 +1,6 @@
+fixtures:
+  repositories:
+    network: 'https://github.com/adrienthebo/puppet-network'
+    stdlib: 'https://github.com/puppetlabs/puppetlabs-stdlib'
+  symlinks:
+    netcfg: "#{source_dir}"
