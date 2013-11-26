@@ -4,6 +4,12 @@ class netcfg(
   $routes     = $netcfg::params::routes,
 ) inherits netcfg::params {
 
+  # Needed for network_route to work properly
+  package {
+    'ifupdown-extra':
+      ensure => 'installed'
+  }
+
   validate_hash($interfaces)
   create_resources('network_config', $interfaces)
 
